@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cad8dc2a48.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/dist/css/main.css" />
+
+    <title>Clear Sky | Home</title>
+  </head>
+  <body>
+    <header id="expertise-header" class="hero">
+      <div class="navbar top" id="navbar">
+        <img class="logo lg" src="/dist/img/logo.png" alt="" />
+        <input type="checkbox" name="" id="check" />
+
+        <nav class="nav">
+          <label for="check" id="checkbtn" class="checkbtn">
+            <i id="ham" class="fas fa-bars"></i>
+          </label>
+          <ul class="navlinks">
+            <li><a href="/dist/index.html">Home</a></li>
+            <li><a href="/dist/expertise.html">Expertise</a></li>
+
+            <li><a href="/dist/mtt.html">Meet the team</a></li>
+            <li>
+              <a href="/dist/contact.html" class="btn">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content-info">
+        <div class="container">
+          <h1>Expertise</h1>
+          <p>
+            ClearSky Legal is a specialist commercial law firm. We are
+            client-focused problem solvers. We go out of our way to deliver
+            expert legal advice in the following areas.
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="expertise-laws">
+      <div class="container">
+        <div class="flex mg-5 bg-grey">
+          <div class="contact-info">
+            <h1>Commercial Law</h1>
+            <div class="primary-bottom-line"></div>
+            <p>
+              We specialise in helping small and medium businesses from major
+              transactions to matters in day-to-day business operations.
+            </p>
+            <a href="/dist/commercial.html" class="btn">More info</a>
+          </div>
+          <img src="/dist/img/expertise1.png" alt="" />
+        </div>
+        <div class="flex mg-5 bg-grey flex-rev">
+          <div class="contact-info bg-grey">
+            <h1>Property law</h1>
+            <div class="primary-bottom-line"></div>
+            <p>
+              We specialise in helping small and medium businesses from major
+              transactions to matters in day-to-day business operations.
+            </p>
+            <a href="/dist/commercial.html" class="btn">More info</a>
+          </div>
+          <img src="/dist/img/expertise2.png" alt="" />
+        </div>
+        <div class="flex mg-5 bg-grey">
+          <div class="contact-info bg-grey">
+            <h1>Immigration</h1>
+            <div class="primary-bottom-line"></div>
+            <p>
+              We specialise in helping small and medium businesses from major
+              transactions to matters in day-to-day business operations.
+            </p>
+            <a href="/dist/commercial.html" class="btn">More info</a>
+          </div>
+          <img src="/dist/img/expertise3.png" alt="" />
+        </div>
+        <div class="flex mg-5 bg-grey flex-rev">
+          <div class="contact-info bg-grey">
+            <h1>Dispute resolution</h1>
+            <div class="primary-bottom-line"></div>
+            <p>
+              We specialise in helping small and medium businesses from major
+              transactions to matters in day-to-day business operations.
+            </p>
+            <a href="/dist/commercial.html" class="btn">More info</a>
+          </div>
+          <img src="/dist/img/expertise4.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="home-personalised" class="home-personalised py-3">
+      <div class="container">
+        <div class="personalise flex text-center">
+          <div class="info">
+            <h2>For Personalised and Expert Legal Advice</h2>
+            <p>
+              We are client-focused problem solvers. We go out of our way to
+              deliver expert legal advice.
+            </p>
+          </div>
+          <h3 href="/dist/contact.html" class="btn-secondary">Contact Us</h3>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footergrid">
+          <img src="/dist/img/logo-light.png" alt="" />
+          <div>
+            <ul>
+              <li><h3>Sitemap</h3></li>
+              <li><h2>Home</h2></li>
+              <li><h2>Expertise</h2></li>
+              <li><h2>About</h2></li>
+              <li><h2>Contact</h2></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><h3>Services</h3></li>
+              <li><h2>Commercial Law</h2></li>
+              <li><h2>Property Law</h2></li>
+              <li><h2>Immigration</h2></li>
+              <li><h2>Dispute Resolution</h2></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><h3>Contact</h3></li>
+              <li><h2>ClearSky Legal</h2></li>
+              <li><h2>Suite 201</h2></li>
+              <li><h2>Chatswood NSW 2067, Australia</h2></li>
+              <li><h2>+61 (0)425 216 938</h2></li>
+            </ul>
+          </div>
+        </div>
+        <p>&copy; 2020 ClearSky Legal Pty Ltd. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script>
+      const navbar = document.getElementById("navbar");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
+  </body>
+</html>

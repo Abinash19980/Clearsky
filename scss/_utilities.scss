@@ -1,0 +1,199 @@
+.container {
+    padding: 0rem 1.5rem;
+    max-width: 1333px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .checkbtn
+  {
+      font-size: 40px;
+  }
+  
+  li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0rem 1rem;
+    color: var(--secondary-color);
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .logo {
+    width: 133px;
+    height: 88px;
+  }
+  
+  i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+  }
+  .btn {
+    padding: 1rem 3rem;
+    background: var(--primary-color);
+    text-align: center;
+    border-radius: 10px;
+  }
+  .btn-transparent {
+    padding: 1rem 3rem;
+    background: transparent;
+    color: var(--primary-color);
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+  }
+  .btn:hover {
+    background: transparent;
+    border: 2px solid var(--primary-color);
+  }
+  .btn-secondary {
+    padding: 1rem 3rem;
+    background: #fff;
+    color: var(--secondary-color);
+    text-align: center;
+    border-radius: 10px;
+  }
+  .btn-secondary:hover {
+    background: transparent;
+    border: 2px solid var(--primary-color);
+  }
+  .py-1 {
+    padding: 1rem 0;
+  }
+  .py-0.5 {
+    padding: 0.5rem 0;
+  }
+  .py-2 {
+    padding: 2rem 0;
+  }
+  .py-3 {
+    padding: 3rem 0;
+  }
+  .py-4 {
+    padding: 4rem 0;
+  }
+  .py-5 {
+    padding: 5rem 0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .text-center {
+    align-items: center;
+    text-align: center;
+  }
+  p {
+    color: var(--para-color);
+    padding-bottom: 2rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .bottom-line {
+    width: 57px;
+    border: 1.5px solid grey;
+    margin: 1.5rem auto;
+  }
+  .primary-bottom-line {
+    width: 57px;
+    border: 1.5px solid grey;
+    margin: 1.5rem 0;
+  }
+  .bg-grey {
+    background: #f9f9f9;
+  
+    height: 100%;
+  }
+  .mg-5 {
+    margin: 5rem 0;
+  }
+  .mg-4 {
+    margin: 4rem 0;
+  }
+  .mg-3 {
+    margin: 3rem 0;
+  }
+  .mg-2 {
+    margin: 2rem 0;
+  }
+  
+  .flex-rev {
+    flex-direction: row-reverse;
+  }
+  span {
+    color: grey;
+  }
+  input {
+    background: #fff;
+    height: 40px;
+    padding-left: 0.8rem;
+    border: none;
+  }
+  textarea {
+    height: 8rem;
+  }
+  /* Set the size of the div element that contains the map */
+  #map {
+    margin-bottom: 15rem;
+  }
+  .map {
+    border: 10px solid white;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+  }
+  aside {
+    position: absolute;
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    top: 128rem;
+    left: 4rem;
+  }
+  aside p {
+    color: #fff;
+  }
+  
+  .scroll-top{
+    
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+  }
+
+  .slick{
+  &-next{
+    right: 110px !important;
+    &::before{
+      font-size: 60px !important; 
+      color: var(--primary-color) !important;
+    }
+  } 
+  &-prev{
+    left: 92px !important;
+    &::before{
+      font-size: 60px !important;
+      color: var(--primary-color) !important;
+    }
+  }
+}
+.slick-dots li.slick-active button::before {
+
+  opacity: .75;
+  color:var(--primary-color) !important; 
+
+}
+.slick-dots li button::before{
+ font-size: 20px !important;
+}
